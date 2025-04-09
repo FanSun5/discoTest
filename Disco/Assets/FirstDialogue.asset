@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d48f3bbb216334a0abdf3d527222e465, type: 3}
+  m_Name: FirstDialogue
+  m_EditorClassIdentifier: 
+  speakerName: X
+  dialogueLinesList:
+  - .....
+  - (Look at you, but said nothing)
+  - ....
+  nextLine: {fileID: 11400000, guid: 21620a120d08145db96ae76f5f72554a, type: 2}
+  choices:
+  - choiceText: '"Hi..I''m A"'
+    nextLine: {fileID: 11400000, guid: 21620a120d08145db96ae76f5f72554a, type: 2}
+    requiredStat: charisma
+    requiredValue: 1
+    rewardStat: charisma
+    rewardAmt: 5
+  - choiceText: tell X a joke
+    nextLine: {fileID: 11400000, guid: 3f4c4d8afe3be4f9e9930912320765be, type: 2}
+    requiredStat: logic
+    requiredValue: 5
+    rewardStat: empathy
+    rewardAmt: 1
